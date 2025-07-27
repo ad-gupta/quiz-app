@@ -26,7 +26,7 @@ const QuizDisplay = () => {
   };
 
   useEffect(() => {
-    if (timer <= 0 || current >= questions.length-1) {
+    if (timer <= 0) {
       handleSubmit();
       return;
     }
